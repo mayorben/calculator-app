@@ -1,0 +1,148 @@
+@media (min-width:400px) and (max-width:1440px){
+    #all{
+        background-color: rgb(255, 166, 0);
+        padding: 20px;
+        margin: auto 20px;
+        margin-block-start: 30px;
+    }
+	#body {
+    background-color: #fff;
+    width: 290px;
+    height: auto;
+    border-radius: 2px;
+    -o-border-radius: 2px;
+    margin-top: 24px;
+    margin-left: 43px;
+    -o-box-shadow: 0px 0px 10px ;s
+    -moz-box-shadow: 0px 0px 10px ;
+    -webkit-box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 10px;
+    border-color: #d48f29;
+    border: .7px solid floralwhite;
+}
+
+
+#display {
+	font-size: 25px;
+    width: 245px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 8px 20px;
+    margin-left: 20px;
+    margin-top: 31px;
+    border-radius: 2px;
+    margin-bottom: 23px;
+    box-shadow: 0px 0px 26px gray;
+    -o-box-shadow: 0px 0px 26px gray;
+    -moz-box-shadow: 0px 0px 26px gray;
+    -webkit-box-shadow: 0px 0px 26px gray;
+    color:black;
+}
+
+
+#digit {
+    width: 187px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #d48f29;
+    border-right-color: #d48f29;
+    border-bottom-color: #d48f29;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    height: auto;
+    margin: 0 3px 0 20px;
+    float: left;
+    background-color: #E9E7E7;
+}
+.hover input {
+    width: 50px;
+    height: 50px;
+    border-radius: 22.5px;
+    margin: 3px;
+    border: 1px;
+    
+    box-shadow: 0.6px 1px 3px lightblue;
+    -o-box-shadow: 0.6px 1px 3px lightblue;
+    -moz-box-shadow: 0.6px 1px 3px lightblue;
+    -webkit-box-shadow: 0.6px 1px 3px lightblue;
+
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Century Gothic;
+}
+.hover input:focus{
+	color: white;
+	background-color: pink;
+}
+
+.hover input:hover{
+
+	 border: 3px solid black;
+	-webkit-transition: border .2s ease-out;
+	-moz-transition: border .1s ease-out;
+	-o-transition: border .2s ease-out;
+	transition: border .1s ease-out;
+
+
+}
+
+#signs {
+    width: 57px;
+    border: 0px solid #D48F29;
+    height: auto;
+    margin: 0 20px 0 3px;
+    float: left;
+    background-color: #f9f7f7;
+}
+
+
+#footer
+{
+	clear: both;
+	padding: 21px 67px; 
+
+}
+
+.hover{
+
+	cursor: default;
+
+}
+
+div #blue_:focus{
+		color: blue;
+}
+
+div #red_:focus{
+	color: red;
+}
+
+div .size_23{
+	font-size: 22px;
+}
+
+#center {
+    margin: 0 35px;
+}
+
+#center small {
+    clear: both;
+    font-size: smaller;
+    color: #494949;
+    font-family: fontawesome-webfont;
+
+}
+#center small a{
+    color: black;
+}
+
+#right_ eval(display.value){
+    text-align: right;
+    float: right;
+    margin: 0 auto;
+}
+
+
+}
